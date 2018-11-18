@@ -1,0 +1,45 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/JesusCollegeChapelCourt.jpg/1200px-JesusCollegeChapelCourt.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mainContent {
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.table {
+    color: black;
+    border-radius: 0 0 10px 10px;
+    background-color: #D8DEC6;
+}
+
+.links a{
+    color: dodgerblue;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
